@@ -10,7 +10,7 @@ The project uses the Telco Customer Churn dataset in `data/Telco-Customer-Churn.
 
 ## Machine Learning
 
-The notebook compares Logistic Regression, Decision Tree, Random Forest, K-Nearest Neighbors (KNN), and Gradient Boosting classifiers. Models are evaluated on a held-out test set using accuracy, precision, recall, F1 score, confusion matrices, and classification reports. The notebook also demonstrates five-fold cross-validation and hyperparameter tuning with `GridSearchCV`.
+The notebook compares Logistic Regression, Decision Tree, Random Forest, K-Nearest Neighbors (KNN), and Gradient Boosting classifiers. Models are evaluated on a held-out test set using accuracy, precision, recall, F1 score, confusion matrices, and classification reports. It also visualizes feature importance from the Random Forest model.
 
 The Streamlit app uses the saved Random Forest model in `churn_model.pkl` and the fitted preprocessing pipeline in `preprocessor.pkl`. The preprocessor scales numerical features and one-hot encodes categorical features.
 
